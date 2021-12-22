@@ -49,7 +49,7 @@
 
     <v-main>
       <HelloWorld/>
-      <wether-card/>
+      <wether-card initialCity="San Francisco"/>
       <Footer/>
     </v-main>
   </v-app>
