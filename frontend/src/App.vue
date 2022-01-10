@@ -49,7 +49,7 @@
 
     <v-main>
       <HelloWorld/>
-      <wether-card initialCity="San Francisco"/>
+      <weather-card initialCity="San Francisco"/>
       <Footer/>
     </v-main>
   </v-app>
@@ -58,14 +58,14 @@
 <script>
 import Footer from './components/Footer.vue';
 import HelloWorld from './components/HelloWorld';
-import WetherCard from './components/WetherCard';
+import WeatherCard from './components/WeaatherCard';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
-    WetherCard,
+    WeatherCard,
     Footer
   },
 
